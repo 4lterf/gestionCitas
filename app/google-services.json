@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1045797619066",
+    "project_id": "gestion-citas-a107f",
+    "storage_bucket": "gestion-citas-a107f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045797619066:android:bb690a90c1ccf8837c42c3",
+        "android_client_info": {
+          "package_name": "com.example.gestioncitas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcVNYMwekfwDdCl_0EDgYViHqlDPxjAPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

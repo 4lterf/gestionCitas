@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".soporte">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="311dp"
+        android:layout_height="33dp"
+        android:text="Soporte"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preguntas frecuentes"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView6"
+        android:layout_width="471dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="124dp"
+        android:text="¿Cómo me registro en la aplicación?"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-1dp" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView7"
+        android:layout_width="492dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="4dp"
+        android:text="¿Qué hago si olvidé mi contraseña?"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/multiAutoCompleteTextView6"
+        tools:layout_editor_absoluteX="-2dp" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView8"
+        android:layout_width="415dp"
+        android:layout_height="76dp"
+        android:text="¿Puedo iniciar sesión con mi cuenta de redes sociales o correo electrónico?"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/multiAutoCompleteTextView7"
+        tools:layout_editor_absoluteX="-3dp" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView9"
+        android:layout_width="416dp"
+        android:layout_height="66dp"
+        android:text="¿Es posible actualizar mi información personal en el perfil?"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/multiAutoCompleteTextView8"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView10"
+        android:layout_width="480dp"
+        android:layout_height="66dp"
+        android:text="¿Cómo puedo programar una nueva cita médica?"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/multiAutoCompleteTextView9"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView11"
+        android:layout_width="446dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="4dp"
+        android:text="¿Es posible ver el historial de citas pasadas en la aplicación?"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/multiAutoCompleteTextView10"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/soportRegresar"
+        android:layout_width="129dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="92dp"
+        android:backgroundTint="#673AB7"
+        android:text="Regresar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/multiAutoCompleteTextView11" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
